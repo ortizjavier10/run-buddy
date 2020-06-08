@@ -235,22 +235,24 @@ section {
     background: #024e76;
 }
 
+.contact h2 {
+    color: #fce138;
+}
+
 .section-title {
-    color: #024e76;
     font-size: 55px;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
     display: inline-block;
-    border-bottom: 3px solid;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;  
+    margin-bottom: 35px
+    color: #024e76;
 }
 
 .secondary-border {
     border-color: #39a6b2;
 }
 
-.contact h2 {
-    color: #fce138;
-}
+
 
 .contact-info iframe {
     width: 400px;
@@ -265,3 +267,22 @@ section {
     margin: 30px 0 0 60px;
     color: white;
 }
+
+.contact-info h3 {
+    color: #fce138;
+    font-size: 32px;
+}
+
+.contact-info p, .contact-info address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 20px;
+    font-style: normal;
+   
+}
+
+.contact-info a {
+    color: #fce138;
+}
+
+/* end reach out section */
